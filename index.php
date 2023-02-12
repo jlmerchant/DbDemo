@@ -21,7 +21,7 @@
         else{
             echo "Success<br />";
         }
-        $result = $db_conn->query("SELECT * FROM Textbook;");
+        $result = $db_conn->query("SELECT * FROM menuItems;");
         $books_array = array();
         while ($row = $result->fetch_assoc()) {
             // var_dump($roSelect * from Textbook;Select * from Textbook;w);
