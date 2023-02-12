@@ -22,9 +22,8 @@
             echo "Success<br />";
         }
         $result = $db_conn->query("SELECT * FROM menuItems;");
-        $books_array = array();
+        $menu_array = array();
         while ($row = $result->fetch_assoc()) {
-            // var_dump($roSelect * from Textbook;Select * from Textbook;w);
             print_r($row);
         }
 
