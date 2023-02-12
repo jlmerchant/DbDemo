@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+
+<h2>DB Connections</h2>
     <?php
 
         $servername = "localhost";
