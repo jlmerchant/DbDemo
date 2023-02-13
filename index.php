@@ -14,7 +14,7 @@
     echo "<p>Start of php</p>";
 
         $servername = "localhost";
-        $username = "steverq1_de";
+        $username = "steverq1_dev";
         $password = "Csci213+#006";
         $dbname = "steverq1_devdb";
            
