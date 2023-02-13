@@ -27,7 +27,7 @@
         else{
             echo "Success<br />";
         }
-        $result = $db_conn->query("SELECT foo FROM menuItems;");
+        $result = $db_conn->query("SELECT * FROM menuItems;");
         if(!$result){
             echo "error on query<br/>";
         }
