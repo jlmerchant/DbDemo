@@ -28,6 +28,9 @@
             echo "Success<br />";
         }
         $result = $db_conn->query("SELECT foo FROM menuItems;");
+        if(!$result){
+            echo "error on query<br/>";
+        }
         $menu_array = array();
         while ($row = $result->fetch_assoc()) {
             print_r($row);
