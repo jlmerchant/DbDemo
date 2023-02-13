@@ -27,10 +27,11 @@
         else{
             echo "Success<br />";
         }
-        $result = $db_conn->query("SELECT * FROM menuItems;");
+        $result = $db_conn->query("SELECT foo FROM menuItems;");
         $menu_array = array();
         while ($row = $result->fetch_assoc()) {
             print_r($row);
+            echo "<br/>";
         }
 
         ?>
