@@ -35,6 +35,11 @@
         echo "Query good!<br/>";
     }
 
+    while ($row = $result->fetch_assoc()) {
+        print_r($row);
+        echo "<br/>";
+    }
+
 
 
 
