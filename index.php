@@ -32,17 +32,12 @@
 
     $result = $db_conn->query("SELECT * FROM cmer;");
 
-    if (!$result) {
-        echo "error on query<br/>";
-    } else {
-        echo "Query good!<br/>";
+    if(!$result) {
+        echo "Error on query<br />";
     }
-
-    while ($row = $result->fetch_assoc()) {
-        print_r($row);
-        echo "<br/>";
+    else{
+        echo "Query good!<br />";
     }
-
     ?>
 
 </body>
