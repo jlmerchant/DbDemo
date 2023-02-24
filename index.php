@@ -12,7 +12,7 @@
 
     <h2>DB Connections</h2>
 
-    <a href="selfProcessForm.php">self process form</a>
+    <a href="addCatalogItem-lab.php">Add a catalog item</a>
     <?php
 
     echo "<p>Start of php</p>";
@@ -22,7 +22,7 @@
     $password = "Csci213+#006";
     $dbname = "steverq1_devdb";
 
-    $db_conn = new mysqli($servername, $username, $password, $dbname);
+    //$db_conn = new mysqli($servername, $username, $password, $dbname);
 
     if ($db_conn->connect_error) {
         echo "Database connection failed: " . $db_conn->connect_error;
